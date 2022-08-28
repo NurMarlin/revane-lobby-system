@@ -1,0 +1,11 @@
+name: lobby-system
+version: 1.0
+author: Marlin
+main: net.revane.lobby.Lobby
+
+commands:
+  setspawn:
+    permission: revane.lobby.command.setspawn
+    description: Set world spawn
+  spawn:
+    description: Come back to the spawn
